@@ -1,0 +1,99 @@
+h1 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ED7BAB;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    text-shadow: 2px 2px lightgray;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(255, 64, 129, 0.5);
+    margin: 0; 
+    padding: 15px;
+}
+
+body {
+    font-size: 15px;
+    font-family: Tahoma;
+    text-align: justify;
+    background-color: white;
+    padding: 50px;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.white {
+    background-color: #F5D3DD;
+    padding-bottom: 60px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.top-link {
+    margin-top: 2px;
+    text-align: right;
+    color: white;
+    text-shadow: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: #ED7BAB;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+}
+
+.polaroids {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.polaroid {
+    flex-grow: 1;
+    margin: 5px 8px; 
+    background-color: white; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    border-radius: 10px;
+}
+
+
+.polaroid img {
+    width: 300px; 
+    height: 250px; 
+}
+
+.details {
+    padding: 20px;
+    margin: 0; 
+}
+
+.details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+figcaption h2,
+figcaption p {
+    margin: 0; 
+}
